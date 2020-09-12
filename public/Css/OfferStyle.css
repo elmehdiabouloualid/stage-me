@@ -1,0 +1,64 @@
+.card {
+  width: 20%;
+  box-shadow: 2px 2px 20px black;
+  border-radius: 5px;
+  margin: 4%;
+  float: left;
+  position: static;
+  font-size: 20px;
+}
+
+.image img {
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.title {
+  text-align: center;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+.des {
+  padding: 3px;
+  text-align: center;
+  padding-top: 10px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+button {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  background-color: red;
+  border: 1px solid red;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+button:hover {
+  background-color: black;
+  border: 1px solid black;
+  color: white;
+  transition: .5s;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 720px) {
+  .card {
+    width: 50%;
+    height: auto;
+    margin: 150px 0px 70px 0px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .secondary-menu {
+    visibility: hidden;
+    height: 400px;
+  }
+}
